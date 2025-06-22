@@ -1,0 +1,102 @@
+/* Layout styles for the account page */
+.account {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.account-form-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styles for the login/register form */
+form {
+  width: 350px;
+  padding: 30px;
+  background-color: #e4e4e4;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading inside the form */
+form h1 {
+  margin: 0 0 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Horizontal divider */
+.divider {
+  height: 1px;
+  background-color: #ddd;
+  margin-bottom: 20px;
+}
+
+/* Form field container */
+.field {
+  margin-bottom: 15px;
+}
+
+/* Form label styles */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Input field styles */
+input {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+/* Error message styling */
+form p {
+  font-size: 14px;
+  color: red;
+}
+
+/* Submit button styles */
+button.enter {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #2573c7;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button.enter:hover {
+  background-color: #1b5492;
+}
+
+button.enter:focus {
+  outline: none;
+}
+
+/* Link to switch between login and register pages */
+.Link-register-login {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #2573c7;
+  font-size: 14px;
+}
+
+.Link-register-login:hover {
+  text-decoration: underline;
+}

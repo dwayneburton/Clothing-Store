@@ -1,0 +1,49 @@
+/* Layout styles for the shop page */
+.shop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Container for product listings */
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+/* Styling for individual product cards */
+.product {
+  flex: 1 0 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Product image sizing */
+.product img {
+  max-width: 75%;
+  max-height: 75%;
+}
+
+/* Add to cart button styling */
+.addToCart-btn {
+  background-color: transparent;
+  border: 2px solid black;
+  min-width: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 15px;
+}
+
+/* Hover effect for add to cart button */
+.addToCart-btn:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}

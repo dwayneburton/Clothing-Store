@@ -1,0 +1,21 @@
+/* Layout styles for the checkout confirmation page */
+.display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Heading styles */
+.display h1 {
+    color: black;
+    font-size: 28px;
+    margin-top: 0;
+}
+
+/* Paragraph styles */
+.display p {
+    color: black;
+    font-size: 18px;
+}
